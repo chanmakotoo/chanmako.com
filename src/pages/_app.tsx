@@ -1,6 +1,7 @@
 import * as React from 'react';
 import App, { AppProps } from 'next/app';
 import 'ress';
+import '../../styles/globals.scss';
 
 class MyApp extends App {
   render(): JSX.Element {

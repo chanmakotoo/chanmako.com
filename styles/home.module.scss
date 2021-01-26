@@ -1,0 +1,24 @@
+@import "globals";
+.title {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  @include sp {
+    top: 50px;
+    font-size: 32px;
+  }
+}
+.link {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  line-height: 2;
+  @include sp {
+    font-size: 24px;
+    bottom: 30%;
+  }
+}

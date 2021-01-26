@@ -1,0 +1,22 @@
+@import "../globals";
+
+.footer {
+  display: block;
+  width: 100%;
+  margin-top: 80px;
+  padding: 2% 0;
+  border-top: solid 3px #e5e5e5;
+  border-bottom: solid 3px #e5e5e5;
+  @include sp {
+    margin-top: 50px;
+  }
+  small {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    @include sp {
+      font-size: 13px;
+    }
+  }
+}

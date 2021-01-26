@@ -1,0 +1,31 @@
+@import "globals";
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.article {
+  width: 48%;
+  transition: all 0.2s ease-in-out;
+  border: solid 3px #e5e5e5;
+  @include sp {
+    width: 100%;
+    &:not(:first-of-type) {
+      margin-top: 50px;
+    }
+  }
+  &Link {
+    display: block;
+    padding: 4%;
+    text-decoration: none;
+  }
+  &Time {
+    letter-spacing: 0.1em;
+  }
+}
